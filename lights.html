@@ -1,0 +1,43 @@
+<!-- TASK NO_1 : 
+NAME: SHANTANA MIRDHA -->
+
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<img alt="" src="task.jpg" class="center"
+            style="height: 300px; width: 300px ;"id="light" onclick="changeImage()"  />
+
+<style>
+
+ *{
+     background-color: black;
+ }
+    .center {
+  margin-top: 17%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+</style>
+<script language="javascript">
+         var img = 'off';
+    function changeImage() {
+    
+        var image = document.getElementById("light");
+        if (img == 'off') 
+        {
+            image.src= "jj.jpg";
+            img='on';
+        }
+        else 
+        {
+            image.src= "task.jpg";
+            img='off';
+        }
+    }
+</script>
+</body>
+</html>
